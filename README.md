@@ -119,13 +119,13 @@ HTTP yanıtlarında `200`, `201`, `404` gibi ham sayıların yerine `http.STATUS
 
 - Kodun **anlamı daha açık** hale gelir.  
 - **Ekip çalışmasında** hata olasılığı azalır.  
-- Bir geliştirici **`201`**'in ne olduğunu bilmese bile **`CREATED`** ifadesiyle ne anlatılmak istendiğini kolayca anlayabilir.
+- Bir geliştirici **`201`**'in ne anlama geldiğini bilmese bile **`CREATED`** ifadesiyle ne anlatılmak istendiğini kolayca anlayabilir.
 
 
 ## ❗ Hata Yönetimi
-- Geçersiz route’lar için özel `404` sayfası
-- Dosya okuma/yazma hataları `try-catch` ve `fs` hataları ile düzgün yönetilir
-- Eksik veya hatalı ID'ler için kullanıcıya bilgilendirici mesajlar
+- Geçersiz route’lar için özel `404` sayfası oluşturulmuştur.
+- Dosya okuma/yazma hataları `try-catch` ve `fs` hataları ile düzgün yönetilir.
+- Eksik veya hatalı ID'ler için kullanıcıya bilgilendirici mesajlar gösterilir.
 
 ## 👨‍💻 Developer
 ###### **İsim: Muhammet Müslüm Ökkeş Kazıcı** 
